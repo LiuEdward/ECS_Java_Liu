@@ -1,4 +1,3 @@
-//== is for comparisons
 public class VariablesAndNames 
 {
 	public static void main(String[] args)

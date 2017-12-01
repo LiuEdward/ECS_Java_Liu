@@ -1,0 +1,21 @@
+public class YourSchedule 
+{
+	public static void main(String[] args)
+	{
+		String band, ECS, math, spanish, johnson, mauro, happ, ancona;
+		band="Band";
+		ECS="ECS";
+		math="Int Math 2H";
+		spanish="Spanish I";
+		johnson="Johnson";
+		mauro="Mauro";
+		happ="Happ";
+		ancona="Ancona";
+		System.out.println("Edward's Class Schedule:");
+		System.out.println("-----------------------------------------");
+		System.out.println("|Per 1|      "+band+"         |      "+johnson+"      |");
+		System.out.println("|Per 1|      "+ECS+"          |      "+mauro+"        |");
+		System.out.println("|Per 1|      "+math+"  |      "+happ+"         |");
+		System.out.println("|Per 1|      "+spanish+"      |      "+ancona+"       |");
+	}
+}

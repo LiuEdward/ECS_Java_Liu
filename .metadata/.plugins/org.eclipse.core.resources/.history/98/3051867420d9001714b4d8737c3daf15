@@ -1,18 +1,15 @@
-//if println was replaced by print, everything would be on one line.
-//allows computer to ask you questions
 import java.util.Scanner;
 public class AskingQuestions 
 {
 	public static void main(String[] args)
 	{
-		Scanner keyboard = new Scanner(System.in); //creates a scanner using the keyboard
+		Scanner keyboard = new Scanner(System.in);
 		String name;
 		int age, feet, inches;
 		double weight;
-	
 		
 		System.out.println("What is your name?");
-		name = keyboard.next();//cant use int, is a string
+		name = keyboard.next();
 		
 		System.out.println("How old are you");
 		age = keyboard.nextInt();

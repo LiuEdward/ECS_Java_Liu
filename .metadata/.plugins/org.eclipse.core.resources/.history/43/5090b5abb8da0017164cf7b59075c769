@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class BMICalculator {
+	public static void main(String[] args)
+	{
+		Scanner keyboard = new Scanner(System.in);
+		int feet, inc, weight;
+		System.out.println("BMI is a way of representing your size");
+		System.out.println("How many feet tall");
+		feet = keyboard.nextInt();
+		System.out.println("How many inches");
+		inc = keyboard.nextInt();
+		System.out.println("How many pounds");
+		weight = keyboard.nextInt();
+		System.out.println("Your BMI is:"+ ((weight*0.4536)/(feet*0.3048))  );
+	}
+
+}

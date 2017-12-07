@@ -39,21 +39,6 @@ public class TwoQuestions
 				System.out.println("Is it an eggplant");
 			}
 		}
-		if (x==3)
-		{
-			System.out.println("is it red?");
-			System.out.println("1). yes");
-			System.out.println("2). no");
-			x1 = keyboard.nextInt();
-			if(x1==1)
-			{
-				System.out.println("Is it a ruby");
-			}
-			else
-			{
-				System.out.println("Is it a diamond");
-			}
-		}
 	
 	
 	

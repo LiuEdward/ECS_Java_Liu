@@ -1,0 +1,12 @@
+import java.util.Random;
+public class HiLow 
+{
+	public static void main ( String[] args )
+	{
+		Random r = new Random();
+		int num;
+		int rnum = 1 + r.nextInt(100);
+		System.out.println("I'm thinking of a number between 1 and 100!");
+		num = keyboard.nextInt();
+	}
+}

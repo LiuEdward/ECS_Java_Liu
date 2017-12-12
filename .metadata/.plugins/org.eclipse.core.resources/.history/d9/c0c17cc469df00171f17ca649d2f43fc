@@ -28,15 +28,15 @@ public class CollatzSequence
 				a=a*3+1;
 				System.out.println(a);
 				b++;
-				if (c<a)
+				if (c>a)
 				{
 					c=a;
 				}
 			}
 			
 		}
-		System.out.println("Terminated after "+b+" steps");
-		System.out.println("The largest value is "+c);
+	
+		
 		
 		
 		

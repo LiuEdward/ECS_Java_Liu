@@ -13,10 +13,9 @@ public class CollatzSequence
 		System.out.println("Repeat this decision until you reach 1");
 		System.out.println("Starting Number: ");
 		a = keyboard.nextInt();
-		c=a;
-		System.out.println(a);
 		while (a > 1)
 		{
+			System.out.println(a);
 			if ((a%2)==0)
 			{
 				a=a/2;
@@ -28,15 +27,11 @@ public class CollatzSequence
 				a=a*3+1;
 				System.out.println(a);
 				b++;
-				if (c<a)
-				{
-					c=a;
-				}
 			}
 			
 		}
-		System.out.println("Terminated after "+b+" steps");
-		System.out.println("The largest value is "+c);
+	
+		
 		
 		
 		

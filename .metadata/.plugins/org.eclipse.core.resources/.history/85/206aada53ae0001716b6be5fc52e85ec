@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class AddingValuesForLoop 
+{
+	public static void main(String[] args)
+	{
+		Scanner keyboard = new Scanner(System.in);
+		int x;
+		System.out.println("Number:");
+		x = keyboard.nextInt();
+		
+		for (int n = 1 ; n <= x ; n = n+1)
+		{
+			System.out.print(n);
+		}
+	}
+}

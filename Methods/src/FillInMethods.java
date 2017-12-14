@@ -10,8 +10,7 @@ public class FillInMethods
 
 		System.out.println();
 		System.out.println("I'm going to get a random character from A-Z");
-		char c = '!';
-		// randchar();
+		char c = randchar();
 		System.out.println("The character is: " + c );
 
 		System.out.println();
@@ -19,40 +18,39 @@ public class FillInMethods
 		int begin, end;
 		begin = -10;
 		end = 10;
-		// counter();
+		counter();
 		System.out.println("How was that?");
 
 		System.out.println();
 		System.out.println("Now we take the absolute value of a number.");
 		int x, y = 99;
 		x = -10;
-		// abso();
+		abso(x);
 		System.out.println("|" + x + "| = " + y );
 
 		System.out.println();
-		System.out.println("That's all.  This program has been brought to you by:"+credits);
-		// credits();
+		System.out.println("That's all.  This program has been brought to you by:");
+    	 credits("");
 	}
 
 
-	public static String credits(String string)
+	public static String credits(String a)
 	// No parameters.
 	{
 		// displays some boilerplate text saying who wrote this program, etc.
-
 		System.out.println();
 		System.out.println("programmed by Sam Cummings");
-		System.out.println("modified by [your name here]");
+		System.out.println("modified by [Edward Liu]");
 		System.out.print("This code is distributed under the terms of the standard ");
 		System.out.println("BSD license.  Do with it as you wish.");
 
-		return "String";
+		return a;
 	}
 
 
 
-/*
-	public static ???? randchar( ???? )
+
+	public static char randchar()
 	// No parameters.
 	{
 		// chooses a random character in the range "A" to "Z"
@@ -65,18 +63,21 @@ public class FillInMethods
 		// now add that offset to the value of the letter 'A'
 		charval = (char) ('A' + numval);
 
-		return ??;
+		return charval;
 	}
-*/
 
 
-/*
-	public static ???? counter( ???? )
+
+
+	public static int counter(  )
 	// Parameters are:
-	//     int start;
-	//     int stop;
+       
 	{
+		int start;
+		int stop;
 		// counts from start to stop by ones
+		start = -10;
+		stop = 10;
 		int ctr;
 
 		ctr = start;
@@ -86,17 +87,18 @@ public class FillInMethods
 			ctr = ctr+1;
 		}
 
-		return ??;
+		return ctr;
 	}
-*/
 
 
-/*
-	public static ???? abso( ???? )
-	// Parameters are:
-	//     int value;
+
+
+	public static int abso(int value )
+	// Parameters are:	    
 	{
+		
 		// finds the absolute value of the parameter
+		
 		int absval;
 
 		if ( value < 0 )
@@ -104,8 +106,8 @@ public class FillInMethods
 		else
 			absval = value;
 
-		return ??;
+		return absval;
 	}
-*/
+
 
 }
